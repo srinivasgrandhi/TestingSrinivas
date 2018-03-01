@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginscreen2"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/shape3"
+        android:digits="0123456789"
+        android:ems="14"
+        android:hint="User ID"
+        android:inputType="number|phone"
+        android:textColor="#040B56"
+        android:textStyle="bold" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_below="@+id/et_email"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape3"
+        android:ems="14"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#040B56"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="EMP"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/login3" />
+
+</RelativeLayout>
