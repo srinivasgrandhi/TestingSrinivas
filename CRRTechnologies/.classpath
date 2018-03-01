@@ -7,5 +7,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/GRK/Downloads/ksoap2-android-assembly-2.4-jar-with-dependencies.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/Srinivas/Downloads/New folder (7)/plugins/Java7RefreshProvider_0.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Srinivas/Downloads/org.eclipse.jgit.pgm-3.0.0.201305281830-rc2-javadoc.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
